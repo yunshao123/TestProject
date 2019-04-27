@@ -56,6 +56,8 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        //app:cardElevation="0px"
+        //app:cardUseCompatPadding="false"
     }
 
 
