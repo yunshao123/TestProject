@@ -40,7 +40,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View view) {
                 //
                 if (list.size()>0){
-                    SortUtil.getList(list);
+                    List<TestBean> listShow=SortTestUtil.getList(list);
+                    for (int i = 0; i <listShow.size() ; i++) {
+                        Log.e("测试数据===",listShow.get(i).getName()+"----"+listShow.get(i).getType());
+                    }
                 }
 
             }
